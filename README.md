@@ -4,7 +4,7 @@ This is a tool for monitoring the process-level network traffic usage.
 It listens to all the TCP packets and groups the usage by process.
 [`NetHogs`](https://github.com/raboof/nethogs) is another tool which does the exact same task.
 
-This was the first week's entry for the `#کدکچال` challenge founded by 
+This was the first week's entry for the `کدکچال#` challenge founded by 
 [monjar](https://github.com/monjar).
 
 ## Usage
