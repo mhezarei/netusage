@@ -14,10 +14,11 @@ You could easily run this tool by running the python script
 And the only requirement is `psutil` package which helps us getting
 the information about processes and can be easily installed using `pip`.
 
-You could use `-d <interval>` argument to specify the interval of results
-being printed in seconds. For example:
+You could use `-i <interval>` argument to specify the interval of results
+being printed in seconds. For example this command runs the tool every
+5 seconds:
 ```commandline
-sudo ./main.py -d 5
+sudo ./main.py -i 5
 ```
 
 The result looks something like this:
