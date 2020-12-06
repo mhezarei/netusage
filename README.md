@@ -25,6 +25,7 @@ The result looks something like this:
 
 Apparently, `fcntl` library makes the program work only on Linux. 
 ([Issue #1](https://github.com/mhezarei/netusage/issues/1))
+
 I will find a way to make it work on other operating systems later on.
 
 ## Stuff to do
