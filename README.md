@@ -23,9 +23,9 @@ sudo ./main.py -d 5
 The result looks something like this:
 ![Output](./images/output.png)
 
-This tool works fine on my Ubuntu and since I haven't used any Linux-dependant
-library or tool and `psutil` is a cross-platform library, 
-I think it will work on other operating systems.
+https://github.com/mhezarei/netusage/issues/1
+Apparently, `fcntl` library makes the program work only on Linux. 
+I will find a way to make it work on other operating systems later on.
 
 ## Stuff to do
 Other that ones mentioned in the code itself, these are what I have in mind 
