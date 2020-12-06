@@ -4,6 +4,8 @@ This is a tool for monitoring the process-level network traffic usage.
 It listens to all the TCP packets and groups the usage by process.
 [`NetHogs`](https://github.com/raboof/nethogs) is another tool which does the exact same task.
 
+This was the first week's entry for the `#کدکچال` challenge founded by 
+[monjar](https://github.com/monjar).
 
 ## Usage
 You could easily run this tool by running the python script 
@@ -17,6 +19,9 @@ being printed in seconds. For example:
 ```commandline
 sudo ./main.py -d 5
 ```
+
+The result looks something like this:
+![Output](./images/output.png)
 
 This tool works fine on my Ubuntu and since I haven't used any Linux-dependant
 library or tool and `psutil` is a cross-platform library, 
@@ -33,9 +38,9 @@ which prints the result in each interval
 - Showing more information about the network and the packets
 
 ## Contributions
-Any form of feedback would be a huge help for me so thanks in advance! :)
+Any form of feedback (issues, pull requests, ...) would be a huge help for me
+so thanks in advance! :)
 
-About pull requests and issues and stuff like that, do whatever you want. :D
 
 ## References
 All the main code about reading the packets are from 
