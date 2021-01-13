@@ -11,7 +11,7 @@ This was the first week's entry for the `کدکچال#` challenge founded by
 You could easily run this tool by running the python script 
 **under root privileges**.
 
-And the only requirement is `psutil` package which helps us getting
+And the only requirement is the `psutil` package which helps us with getting
 the information about processes and can be easily installed using `pip`.
 
 You could use `-i <interval>` argument to specify the interval of results
@@ -24,10 +24,10 @@ sudo python3 ./main.py -i 5
 The result looks something like this:
 ![Output](./images/output.png)
 
-Apparently, `fcntl` library makes the program work only on Linux. 
-([Issue #1](https://github.com/mhezarei/netusage/issues/1))
-
-I will find a way to make it work on other operating systems later on.
+<s> Apparently, `fcntl` library makes the program work only on Linux. 
+([Issue #1](https://github.com/mhezarei/netusage/issues/1)) </s>
+Since Windows doesn't give access to Ethernet layer, this program
+will only run on Linux. I may find a way to make it work on Windows later on.
 
 ## Stuff to do
 Other that ones mentioned in the code itself, these are what I have in mind 
