@@ -18,7 +18,7 @@ You could use `-i <interval>` argument to specify the interval of results
 being printed in seconds. For example this command runs the tool every
 5 seconds:
 ```commandline
-sudo ./main.py -i 5
+sudo python3 ./main.py -i 5
 ```
 
 The result looks something like this:
